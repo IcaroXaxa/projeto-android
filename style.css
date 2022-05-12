@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf') format('opentype');  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
+main {
+    background-color: white;
+    margin: auto auto 15px auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 65%;
+    padding: 0.5% 2%;
+}
+
+header {
+    background-image: linear-gradient(#2EA765, #073E1F);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+:root {
+    --fonte-arial: Arial, Helvetica, sans-serif;
+}
+
+header > nav > a {
+    color: #C5EBD6;
+    text-decoration: none;
+    padding: 10px;
+    font-family: var(--fonte-arial);
+    margin: 2px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+header > nav > a:hover {
+    background-color: #2FA866;
+    color: rgb(0, 0, 0);
+    text-decoration: bold;
+    border-radius: 3px;
+    height: 10px;
+    width: 10px;
+    text-shadow: none;
+}
+
+h1#mascote {
+    font-family: 'idroid';
+    color: #063D1E;
+    font-size: 32px;
+    text-align: justify;
+    text-indent: 30px;
+    margin-bottom: 5px;
+}
+
+h2.separador {
+    font-family: 'idroid';
+    color: #063D1E;
+    font-size: 24px;
+    text-align: justify;
+    background-image: linear-gradient(to right, #83E1AD, white);
+    padding: 4px;
+    margin: 30px;
+    font-weight: 200;
+}
+
+.tec {
+    font-family: 'Bebas Neue';
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+h2.tec {
+    font: bold 16px var(--fonte-arial);
+}
+
+body {
+    background-color: #E8E5C2;
+    margin: 0;
+    padding: 0;
+}
+
+p.indent {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 16px;
+    font-family: var(--fonte-arial);
+    font-weight: 700;
+    line-height: 30px;
+}
+
+p.final {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 16px;
+    font-family: var(--fonte-arial);
+    font-weight: 700;
+    line-height: 30px;
+}
+/*
+p.lista {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 30px;
+    background-color: #C5EBD6;
+    margin: 0px 30px 30px 30px;
+    padding: 10px 10px 260px 10px;
+}
+*/
+
+div.lista {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #C5EBD6;
+    margin: 0px 30px 30px 30px;
+    padding: 10px 10px 2px 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+a.paragrafos {
+    text-decoration: none;
+    color: #2FA87F;
+}
+
+.video {
+    background-color: #063D1E;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+h3 {
+    background-color: #2FA866;
+    font-family: var(--fonte-arial);
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    padding: 10px;
+    margin: 30px 30px 0px 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+li {
+    text-align: left;
+    font-family: var(--fonte-arial);
+    font-size: 17px;
+}
+
+abbr {
+    text-decoration: underline;
+}
+
+footer {
+    font-family: var(--fonte-arial);
+    font-size: 16px;
+    background-color: #063D1E;
+    text-align: center;
+    padding-bottom: 0.5px;
+    padding-top: 0.5px;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.direita {
+    float: right;
+    height: auto;
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.esquerda {
+    float: left;
+    height: auto;
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.texto_footer {
+    color:#83E1AD;
+    text-decoration: none;
+}
+
+#bugdroid {
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+}
+
+img.responsividade {
+    width: 100%;
+    margin: auto;
+}
+
+/* Mudança: deletei os estilos do article e botei os mesmos estilos do meu main */
